@@ -1,0 +1,57 @@
+.escuela{/*link escuela titulo ptincipal*/
+	text-decoration: none;
+}
+.menu{/* menu*/
+	list-style-type: none;
+	display: inline-block;
+	margin: 1%;
+	margin-top: 5%;
+	margin-left: 7%;
+	color: gray;
+	text-decoration: none;
+}/* Inserta tu codigo aqui */
+.fondo-header{/*fondo imagen abajo de menu*/
+	background-image: url(../img/dance_7.jpg);
+	height: 500px;
+}
+.opacity{/*cuadro opacidad*/
+	opacity: black 0.5;
+	background-color: black;
+	width:40%; 
+	height:50%;
+	margin-top: 8%;
+	margin-left: 30%;
+}
+.text1{/*texto sobre nosotros*/
+	padding-top: 10%;
+}
+.textura2{/*fondo de imagen textura2*/
+	background-image: url(../img/tile2.png);
+	height:300px; 
+}
+.pilares{/*titulo pilares*/
+	font-size: 50px;
+}
+.textpilares{/*fondo de imagen textura2*/
+	color: silver;
+}
+.movpilares{/*movimiento para centrar pilares*/
+	padding: 5%;
+}
+.imgprof{/*ajuste de imagen de profesores
+clip: rect(5px, 40px, 45px, 5px)
+clip: rect(arriba, derecha, abajo, izquierda)*/
+width: 300px;
+height: 300px;
+}
+.imgprofgde{/*intento de usar la propiedad clip
+	para recortar la imagen en vez de ponerla como
+	background-image*/
+  	margin:0;
+	top:-20px;
+	left:-55px;
+	clip:rect(20px 205px 110px 55px);
+}
+.nombreprof{/*ajuste de nombre de prof*/
+
+}
